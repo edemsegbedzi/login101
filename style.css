@@ -1,19 +1,19 @@
 @font-face {
     font-family: Norse-Bold;
-    src: url(assets/Norse-Bold.otf);
+    src: url(./assets/Norse-Bold.otf);
 }
 
 @font-face {
     font-family: Comforta-SemiBold;
-    src: url(assets/Comfortaa-SemiBold.ttf);
+    src: url(./assets/Comfortaa-SemiBold.ttf);
 }
 @font-face {
     font-family: Comforta-Regular;
-    src: url(assets/Comfortaa-Regular.ttf);
+    src: url(./assets/Comfortaa-Regular.ttf);
 }
 @font-face {
     font-family: Comforta-Light;
-    src: url(assets/Comfortaa-Light.ttf);
+    src: url(./assets/Comfortaa-Light.ttf);
 }
 body{
     margin: 0;
@@ -26,7 +26,7 @@ main {
 
 .left {
     width: 50vw;
-    background-image: url(assets/thor3.jpeg);
+    background-image: url(./assets/thor3.jpeg);
     background-size: cover;
     display: flex;
     justify-content: center;
