@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/assets/Norse-Bold.otf);
+}
+
+@font-face {
+    font-family: Comforta-SemiBold;
+    src: url(/assets/Comfortaa-SemiBold.ttf);
+}
+@font-face {
+    font-family: Comforta-Regular;
+    src: url(/assets/Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family: Comforta-Light;
+    src: url(/assets/Comfortaa-Light.ttf);
+}
+body{
+    margin: 0;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    background-image: url(/assets/thor3.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+.banner {
+    width: 50vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 1rem 0rem;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.logo-text {
+    font-size: 4rem;
+    font-family: Norse-Bold, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.right {
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.right>.top {
+     padding: 1rem;
+     font-family: Comforta-SemiBold;
+     font-size: 3rem;
+}
+form.form{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    z-index: px;
+    box-shadow: gray;
+    background-color: white;
+    
+}
+.form .dual-set{
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem 0rem;
+   
+}
+.dual-set label{
+    font-family: Comforta-Light;
+    font-size: 0.7rem;
+}
+.dual-set .stack{
+    display: flex;
+    flex-direction: column;
+}
+.stack input{
+    font-family: Comforta-Regular;
+    font-size: 1rem;
+    padding: 0.4rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+form.form>p {
+    font-family: Comforta-SemiBold;
+    font-size: 1rem;
+}
+
+.bottom{
+    padding: 0rem 1rem;
+}
+.submit {
+    padding: 0.5rem 2rem;
+    border: 2px solid #596D48;
+    font-family: Comforta-SemiBold;
+    font-size: medium;
+    color: #596D48;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #596D48;
+    color: whitesmoke;
+}
+.bottom p{
+    font-family: Comforta-Regular;
+    font-size: medium;
+}
+
+.bottom a{
+    color: #596D48;
+
+}
+
+.input-error{
+    font-family: Comforta-Regular;
+    font-size: 1rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 2px solid red;
+}
